@@ -204,4 +204,5 @@ String.prototype.toDecimal = function(place){
  * Sample Usage
  * @type {SKMTI}
  */
-module.exports = new SKMTI();
+var SKMTI = new SKMTI()
+module.exports = SKMTI;
